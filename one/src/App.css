@@ -1,0 +1,46 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card {
+  border: 1px solid grey;
+  padding: 15px;
+}
+
+.card:hover {
+  img {
+    height: 240px;
+    width: 220px;
+  }
+}
+
+.img {
+  height: 220px;
+  width: 200px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+img {
+  height: 100%;
+  width: 95%;
+  object-fit: scale-down;
+  transition: 0.5s ease-in;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1%;
+}
+
+.title {
+  font-weight: 600;
+  margin: 0px;
+}
+
+.price,
+.cate,
+.des {
+  margin: 5px 0px 0px 0px;
+}
