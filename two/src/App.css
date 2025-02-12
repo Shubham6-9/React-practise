@@ -1,0 +1,28 @@
+#counter {
+    width: 220px;
+    height: 200px;
+    border: 20px solid lightgrey;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#counter>button {
+    height: 30px;
+    margin: 5px 10px 5px 10px;
+    width: 30px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    background-color: white;
+    transition: 0.3s ease;
+}
+
+#counter>button:last-child {
+    width: 70px;
+}
+#counter>button:hover{
+    background-color: lightblue;
+    color: blue;
+}
